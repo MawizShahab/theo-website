@@ -647,7 +647,8 @@ body.dark .contact-form textarea,
 body.dark .contact-form input::placeholder,
 body.dark .contact-form textarea::placeholder,
 body.dark .contact-form button,
-body.dark .form-content p {
+body.dark .form-content p,
+body.dark .content-label span {
   color: var(--text-white); /* Change text color to white in dark mode */
 }
 
@@ -883,5 +884,13 @@ div#mode-toggle {
   .categories ul {
     align-items: flex-start;
     gap: 25px;
+  }
+
+  .categories .link a {
+    font-size: 14px;
+  }
+
+  .button_lang {
+    font-size: 12px !important;
   }
 }

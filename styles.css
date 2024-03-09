@@ -828,6 +828,10 @@ div#mode-toggle {
     gap: 25px;
   }
 
+  .content-links {
+    gap: 50px;
+  }
+
   a.content-link span {
     font-size: 10px;
   }

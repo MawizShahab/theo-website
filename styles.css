@@ -829,7 +829,7 @@ div#mode-toggle {
   }
 
   a.content-link span {
-    white-space: nowrap;
+    font-size: 10px;
   }
 
   .services.extend-services,

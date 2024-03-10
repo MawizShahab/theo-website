@@ -816,6 +816,7 @@ div#mode-toggle {
 @media screen and (max-width: 991px) {
   body {
     background-size: cover;
+    overflow-x: hidden;
   }
 
   div#mode-toggle {

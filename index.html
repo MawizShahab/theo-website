@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT - AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- JQUERY/JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- partial -->
+    <script type="text/javascript" src="./custom.js"></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>Theo Website</title>
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar"
+    data-bs-offset="0"
+    tabindex="0"
+  >
+    <div class="main-container-wrapper">
+      <div class="main-container">
+        <!-- === HEADER SECTION === -->
+        <header class="header-container extended-header">
+          <nav class="navbar navbar-expand-lg extended-nav rm-pd">
+            <div class="header-logo">
+              <a href="#"
+                ><img src="./images/light/header-logo.svg" alt="header-logo"
+              /></a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                id="navbarToggler"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div
+              class="collapse navbar-collapse categories-container"
+              id="navbarNav"
+            >
+              <nav class="categories">
+                <ul class="navbar-nav list-inline">
+                  <li class="list-inline-item">
+                    <div class="link">
+                      <a id="en" href="#aboutMe">About me</a>
+                      <a id="fr" href="#aboutMe">À propos</a>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="link">
+                      <a id="en" href="#services">Services</a>
+                      <a id="fr" href="#services">Services</a>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="link">
+                      <a id="en" href="#project">Project</a>
+                      <a id="fr" href="#project">Projet</a>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="link">
+                      <a id="en" href="#contact">Contact</a>
+                      <a id="fr" href="#contact">Contact</a>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="link">
+                      <a id="fr_click" class="button_lang">Fr</a>
+                      <a id="en_click" class="button_lang current_lang">En</a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </nav>
+        </header>
+        <!-- === HERO SECTION === -->
+        <section
+          class="hero-section-main-container"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
+          <div class="hero-section-container">
+            <div class="hero-section">
+              <div class="hero-content">
+                <div class="top-content">
+                  <div class="name">
+                    <div class="seperator"></div>
+                    <span id="en">Hi, I am Theo Blondel</span>
+                    <span id="fr">Salut, moi c’est Theo Blondel</span>
+                  </div>
+                  <div class="introduction">
+                    <p id="en">
+                      Welcome to my website. I offer various services, including
+                      brand identity work, visual design, and support creation.
+                      Whatever the request, each of my clients receives tailored
+                      service to meet their needs.
+                    </p>
+                    <p id="fr">
+                      Bienvenue sur mon site web. Je propose différents
+                      services, notamment le travail sur l'identité de marque,
+                      le design visuel et la création de supports. Quelle que
+                      soit la demande, chacun de mes clients bénéficie d'un
+                      service personnalisé répondant à leurs besoins.
+                    </p>
+                  </div>
+                  <div class="contact">
+                    <span id="en">Contact me</span>
+                    <span id="fr">Contact me</span>
+                  </div>
+                </div>
+                <div class="bottom-content">
+                  <div class="social-icons-container">
+                    <a href="#"
+                      ><img src="./images/light/behance.svg" alt="behace"
+                    /></a>
+                    <a href="#"
+                      ><img src="./images/light/instagram.svg" alt="instagram"
+                    /></a>
+                    <a href="#"
+                      ><img src="./images/light/youtube.svg" alt="youtube"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-image">
+                <img src="./images/hero.png" alt="hero" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- === ABOUT US SECTION === -->
+        <section id="aboutMe" class="additional-info-main-container">
+          <div class="additional-info-container">
+            <div class="addiditonal-info">
+              <div class="about-me">
+                <div
+                  class="heading"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <span id="en">About me</span>
+                  <span id="fr">À propos de moi</span>
+
+                  <div
+                    class="heading-seperator"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  ></div>
+                </div>
+                <div class="content-container">
+                  <div
+                    class="content-left"
+                    data-aos="fade-right"
+                    data-aos-duration="2000"
+                  >
+                    <p id="en">
+                      My name is Théo and I'm passionate about multimedia.
+                      Creating something beautiful and useful, seen by people,
+                      is something I find incredible. I started with video at
+                      the age of 13 on YouTube, playing games. With that, I
+                      began doing design for banners, thumbnails, and more.
+                      Then, I started drawing, almost making it my profession.
+                      Around the age of 15, I took a year to train in video,
+                      design, and illustration, and applied to enter CPNV as a
+                      media technician, a unique profession that I adore. Now,
+                      I'm capable of working on all multimedia elements you
+                      might need.
+                    </p>
+                    <p id="fr">
+                      Je m'appelle Théo et je suis passionné par le multimédia.
+                      J'ai commencé avec la vidéo sur YouTube à 13 ans, puis
+                      j'ai développé mes compétences en design et en
+                      illustration. Maintenant, en tant que Médiamaticien, je
+                      peux travailler sur tous les éléments multimédias dont
+                      vous avez besoin.
+                    </p>
+                  </div>
+                  <div
+                    class="content-right"
+                    data-aos="fade-left"
+                    data-aos-duration="2000"
+                  >
+                    <p id="en">
+                      I really like the Y2K style (the 2000s) and minimalism,
+                      even though they don't necessarily go together. I mostly
+                      use the Adobe suite, but I sometimes use external software
+                      like DaVinci Resolve or Figma, even though they've been
+                      acquired.
+                    </p>
+                    <p id="fr">
+                      J'aime beaucoup le style des années 2000 (Y2K) et le
+                      minimalisme, même s'ils ne vont pas nécessairement
+                      ensemble. J'utilise principalement la suite Adobe, mais il
+                      m'arrive parfois d'utiliser des logiciels externes comme
+                      DaVinci Resolve ou Figma, même s'ils ont été rachetés.
+                    </p>
+                    <div class="additional-link">
+                      <a id="en" href="./about-me.html">See more about me</a>
+                      <a id="fr" href="./about-me.html"
+                        >Découvrir plus sur moi</a
+                      >
+
+                      <a id="en" href="#">See more about my Branding</a>
+                      <a id="fr" href="#">Découvrir mon Branding</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="services" class="services">
+                <div
+                  class="heading"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <span id="en">Services</span>
+                  <span id="fr">Services</span>
+
+                  <div
+                    class="heading-seperator"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  ></div>
+                </div>
+                <div
+                  class="content-container-main"
+                  data-aos="zoom-in-right"
+                  data-aos-duration="2000"
+                  data-aos-delay="120"
+                >
+                  <div class="content-main">
+                    <div class="content-label">
+                      <span id="en">Graphic Design</span>
+                    </div>
+                    <div class="content-label">
+                      <span id="fr">Design graphique</span>
+                    </div>
+
+                    <div class="content-description">
+                      <p id="en">
+                        I will bring your vision to life through custom designs
+                        tailored to your preferences. Whether it's artistic
+                        expression or professional branding, rest assured that
+                        I'll skillfully manage images and typography to create
+                        stunning visuals that resonate with your audience.
+                      </p>
+                      <p id="fr">
+                        Je donnerai vie à votre vision à travers des designs sur
+                        mesure adaptés à vos préférences. Que ce soit une
+                        expression artistique ou un branding professionnel,
+                        soyez assuré que je gérerai habilement les images et la
+                        typographie pour créer des visuels éblouissants qui
+                        résonneront avec votre public.
+                      </p>
+                    </div>
+                    <div class="content-links">
+                      <a href="#" class="content-link">
+                        <img
+                          src="./images/icons/right-arrow.svg"
+                          alt="right-arrow"
+                        />
+                        <span id="en">see more</span>
+                        <span id="fr">Découvrir plus</span>
+                      </a>
+                      <a href="#" class="content-link">
+                        <img
+                          src="./images/icons/right-arrow.svg"
+                          alt="right-arrow"
+                        />
+                        <span id="en">Contact me </span>
+                        <span id="fr">Contactez-moi</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="content-main-hero">
+                    <img
+                      src="./images/graphic-design.png"
+                      alt="graphic-design"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="services extend-services">
+                <div
+                  class="content-container-main"
+                  data-aos="zoom-in-right"
+                  data-aos-duration="2000"
+                  data-aos-delay="180"
+                >
+                  <div class="content-main-hero">
+                    <img src="./images/video-editing.png" alt="video-editing" />
+                  </div>
+                  <div class="content-main">
+                    <div class="content-label">
+                      <span id="en">Video editing</span>
+                    </div>
+                    <div class="content-label">
+                      <span id="fr">Montage vidéo</span>
+                    </div>
+
+                    <div class="content-description">
+                      <p id="en">
+                        I'll use my skills to edit your video (ads, professional
+                        videos, AMVs, edits) within my expertise (ads, short
+                        films, gaming, animated series). If you like my style,
+                        come work with me.
+                      </p>
+                      <p id="fr">
+                        J'utiliserai mes compétences pour éditer votre vidéo
+                        (publicités, vidéos professionnelles, AMV, montages)
+                        dans mon domaine d'expertise (publicités, courts
+                        métrages, gaming, séries animées). Si vous aimez mon
+                        style, venez travailler avec moi.
+                      </p>
+                    </div>
+                    <div class="content-links">
+                      <a href="#" class="content-link">
+                        <span id="en">see more</span>
+                        <span id="fr">Découvrir plus</span>
+                        <img
+                          src="./images/icons/left-arrow.svg"
+                          alt="left-arrow"
+                        />
+                      </a>
+                      <a href="#" class="content-link">
+                        <span id="en">Contact me </span>
+                        <span id="fr">Contactez-moi</span>
+                        <img
+                          src="./images/icons/left-arrow.svg"
+                          alt="left-arrow"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="services illustration">
+                <div
+                  class="content-container-main"
+                  data-aos="zoom-in-right"
+                  data-aos-duration="2000"
+                  data-aos-delay="220"
+                >
+                  <div class="content-main">
+                    <div class="content-label">
+                      <span id="en">Illustration</span>
+                    </div>
+                    <div class="content-label">
+                      <span id="fr">Illustration</span>
+                    </div>
+
+                    <div class="content-description">
+                      <p id="en">
+                        I'll draw roughly what you want in my style; I can try
+                        to adapt, but it wouldn't be as exciting. If you like my
+                        style, come work with me.
+                      </p>
+                      <p id="fr">
+                        Je dessinerai ce que vous voulez dans mon style ; je
+                        peux essayer de m'adapter, mais cela ne serait pas aussi
+                        passionnant. Si vous aimez mon style, venez travailler
+                        avec moi.
+                      </p>
+                    </div>
+                    <div class="content-links">
+                      <a href="#" class="content-link">
+                        <img
+                          src="./images/icons/right-arrow.svg"
+                          alt="right-arrow"
+                        />
+                        <span id="en">see more</span>
+                        <span id="fr">Découvrir plus</span>
+                      </a>
+                      <a href="#" class="content-link">
+                        <img
+                          src="./images/icons/right-arrow.svg"
+                          alt="right-arrow"
+                        />
+                        <span id="en">Contact me </span>
+                        <span id="fr">Contactez-moi</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="content-main-hero">
+                    <img src="./images/illustration.png" alt="illustration" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- === PROJECTS SECTION === -->
+        <section id="project" class="project-main-container">
+          <div class="project-container">
+            <div class="heading" data-aos="fade-up" data-aos-duration="2000">
+              <span id="en">Project</span>
+              <span id="fr">Projet</span>
+
+              <div
+                class="heading-seperator"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              ></div>
+            </div>
+            <div class="cards-container">
+              <div class="project-card" data-aos="fade-up" data-aos-delay="50">
+                <div class="card-logo">
+                  <img src="./images/light/haress.svg" alt="haress" />
+                </div>
+                <div class="card-name"><span>Haress</span></div>
+                <div class="card-link">
+                  <a id="en" href="#">see more</a>
+                  <a id="fr" href="#">Découvrir plus</a>
+                </div>
+              </div>
+              <div
+                class="project-card"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1100"
+              >
+                <div class="card-logo">
+                  <img src="./images/light/nykse.svg" alt="nykse" />
+                </div>
+                <div class="card-name"><span>Nykse</span></div>
+                <div class="card-link">
+                  <a id="en" href="#">see more</a>
+                  <a id="fr" href="#">Découvrir plus</a>
+                </div>
+              </div>
+              <div
+                class="project-card"
+                class="project-card"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1300"
+              >
+                <div class="card-logo">
+                  <img src="./images/light/bot-list.svg" alt="bot-list" />
+                </div>
+                <div class="card-name"><span>Bot list</span></div>
+                <div class="card-link">
+                  <a id="en" href="#">see more</a>
+                  <a id="fr" href="#">Découvrir plus</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- === CONTACT SECTION === -->
+        <section id="contact" class="contact-main-container">
+          <div class="contact-wrapper">
+            <div class="heading" data-aos="fade-up" data-aos-duration="2000">
+              <span id="en">Contact</span>
+              <span id="fr">Contact</span>
+
+              <div
+                class="heading-seperator"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              ></div>
+            </div>
+            <div class="contact-container">
+              <div
+                class="contact-form"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <form action="submit">
+                  <input type="text" placeholder="Name" />
+                  <input type="email" placeholder="Email" />
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="Text"
+                  ></textarea>
+                  <button>Send</button>
+                </form>
+              </div>
+              <div
+                class="contect-form-content"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <div class="form-content">
+                  <p id="en">
+                    Here is a contact form for any questions or requests. If you
+                    prefer, you can also contact me differently using the
+                    buttons below.
+                  </p>
+                  <p id="fr">
+                    Voici un formulaire de contact pour toutes questions ou
+                    demandes. Si vous préférez, vous pouvez également me
+                    contacter différemment en utilisant les boutons ci-dessous.
+                  </p>
+                  <p id="en">
+                    Small clarification: if you contact me for a project, I
+                    would greatly appreciate receiving the maximum amount of
+                    information to better understand your project.
+                  </p>
+                  <p id="fr">
+                    Petite clarification : si vous me contactez pour un projet,
+                    j'apprécierais beaucoup recevoir le maximum d'informations
+                    pour mieux comprendre votre projet.
+                  </p>
+                </div>
+                <div class="social-links-container">
+                  <a href="#"
+                    ><img src="./images/light/email.svg" alt="email"
+                  /></a>
+                  <a href="#"
+                    ><img src="./images/light/instagram.svg" alt="instagram"
+                  /></a>
+                  <a href="#"
+                    ><img src="./images/light/behance.svg" alt="behance"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer-main-container">
+        <div class="footer-container">
+          <div class="footer-links-wrapper">
+            <div class="footer-links">
+              <a id="en" href="./index.html">Home</a>
+              <a id="fr" href="./index.html">Accueil</a>
+              <a id="en" href="#aboutMe">About me</a>
+              <a id="fr" href="#aboutMe">À propos</a>
+              <a id="en" href="#project">Project</a>
+              <a id="fr" href="#project">Projet</a>
+              <a id="en" href="#contact">Contact</a>
+              <a id="fr" href="#contact">Contact</a>
+            </div>
+            <div class="footer-links">
+              <a id="fr_click" class="button_lang">Fr</a>
+              <a id="en_click" class="button_lang current_lang">En</a>
+            </div>
+          </div>
+          <div class="copyright">
+            <p id="en">© 2024 Theo Blondel. All rights reserved</p>
+            <p id="fr">© 2024 Theo Blondel. Tous droits réservés</p>
+          </div>
+        </div>
+        <div class="footer-logo">
+          <a href="#">
+            <div class="spin">
+              <img src="./images/light/footer-logo.svg" alt="footer-logo" />
+            </div>
+          </a>
+        </div>
+      </footer>
+    </div>
+    <div id="mode-toggle">
+      <input type="checkbox" class="checkbox" id="checkbox" />
+      <label for="checkbox" class="checkbox-label">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+        <span class="ball"></span>
+      </label>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

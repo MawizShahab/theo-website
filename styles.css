@@ -207,11 +207,26 @@ a {
 
 .additional-link a {
   color: var(--text-black);
-  font-size: 12px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
+.additional-link a{
+  overflow:hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  transition:all .2s ease-in-out;
+}
+
+
+.additional-link a:hover:before{
+  margin-left:400%;
+}
+
+.additional-link a:hover {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
 
 .about-me {
   display: flex;
@@ -789,6 +804,30 @@ div#mode-toggle {
   border-radius: 15px 0 0 15px;
 }
 
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .hero-image img {
+    width: 150%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .hero-image img {
+    width: 139.5%;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+  .hero-image img {
+    width: 115% !important;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2200px) {
+  .hero-image img {
+    width: 89% !important;
+  }
+}
+
 @media screen and (min-width: 1600px) {
   .header-container,
   .hero-section-main-container {
@@ -980,6 +1019,8 @@ div#mode-toggle {
   .categories ul {
     align-items: flex-start;
     gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .categories .link a {
@@ -998,5 +1039,9 @@ div#mode-toggle {
   .about-me-content p,
   .about-me-links {
     width: 100%;
+  }
+
+  .social-icons-container {
+    flex-direction: row;
   }
 }

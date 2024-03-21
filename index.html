@@ -12,6 +12,8 @@
       crossorigin="anonymous"
     />
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -32,8 +34,8 @@
     <script type="text/javascript" src="./custom.js"></script>
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-    <title>Theo Website</title>
+    <link rel="icon" type="image/png" href="./images/ico.png" />
+    <title>Theo Blondel</title>
   </head>
   <body
     data-bs-spy="scroll"
@@ -117,7 +119,7 @@
                 <div class="top-content">
                   <div class="name">
                     <div class="seperator"></div>
-                    <span id="en">Hi, I am Theo Blondel</span>
+                    <span id="en">Hi, I'm Theo Blondel</span>
                     <span id="fr">Salut, moi c’est Theo Blondel</span>
                   </div>
                   <div class="introduction">
@@ -135,20 +137,24 @@
                       service personnalisé répondant à leurs besoins.
                     </p>
                   </div>
-                  <div class="contact">
-                    <span id="en">Contact me</span>
-                    <span id="fr">Contact me</span>
+                  <div class="additional-link">
+                    <a id="en" href="#contact">Contact</a>
+                    <a id="fr" href="#contact">Contact</a>
                   </div>
                 </div>
                 <div class="bottom-content">
                   <div class="social-icons-container">
-                    <a href="#"
+                    <a target="none" href="https://www.behance.net/JusteTheo"
                       ><img src="./images/light/behance.svg" alt="behace"
                     /></a>
-                    <a href="#"
+                    <a
+                      target="none"
+                      href="https://www.instagram.com/theoblondel.ch/"
                       ><img src="./images/light/instagram.svg" alt="instagram"
                     /></a>
-                    <a href="#"
+                    <a
+                      target="none"
+                      href="https://www.youtube.com/channel/UCCB1TyKqAeJ0cXdNwYzzxcQ"
                       ><img src="./images/light/youtube.svg" alt="youtube"
                     /></a>
                   </div>
@@ -232,8 +238,18 @@
                         >Découvrir plus sur moi</a
                       >
 
-                      <a id="en" href="#">See more about my Branding</a>
-                      <a id="fr" href="#">Découvrir mon Branding</a>
+                      <a
+                        id="en"
+                        target="none"
+                        href="https://www.behance.net/gallery/192580831/Theo-Blondel-Branding"
+                        >See more about my Branding</a
+                      >
+                      <a
+                        id="fr"
+                        target="none"
+                        href="https://www.behance.net/gallery/192580831/Theo-Blondel-Branding"
+                        >Découvrir mon Branding</a
+                      >
                     </div>
                   </div>
                 </div>
@@ -286,7 +302,11 @@
                       </p>
                     </div>
                     <div class="content-links">
-                      <a href="#" class="content-link">
+                      <a
+                        target="none"
+                        href="https://justetheo.myportfolio.com/branding"
+                        class="content-link"
+                      >
                         <img
                           src="./images/icons/right-arrow.svg"
                           alt="right-arrow"
@@ -294,7 +314,7 @@
                         <span id="en">see more</span>
                         <span id="fr">Découvrir plus</span>
                       </a>
-                      <a href="#" class="content-link">
+                      <a href="#contact" class="content-link">
                         <img
                           src="./images/icons/right-arrow.svg"
                           alt="right-arrow"
@@ -347,7 +367,11 @@
                       </p>
                     </div>
                     <div class="content-links">
-                      <a href="#" class="content-link">
+                      <a
+                        target="none"
+                        href="https://justetheo.myportfolio.com/video-2"
+                        class="content-link"
+                      >
                         <span id="en">see more</span>
                         <span id="fr">Découvrir plus</span>
                         <img
@@ -355,7 +379,7 @@
                           alt="left-arrow"
                         />
                       </a>
-                      <a href="#" class="content-link">
+                      <a href="#contact" class="content-link">
                         <span id="en">Contact me </span>
                         <span id="fr">Contactez-moi</span>
                         <img
@@ -396,7 +420,11 @@
                       </p>
                     </div>
                     <div class="content-links">
-                      <a href="#" class="content-link">
+                      <a
+                        target="none"
+                        href="https://justetheo.myportfolio.com/illustration-3"
+                        class="content-link"
+                      >
                         <img
                           src="./images/icons/right-arrow.svg"
                           alt="right-arrow"
@@ -404,7 +432,7 @@
                         <span id="en">see more</span>
                         <span id="fr">Découvrir plus</span>
                       </a>
-                      <a href="#" class="content-link">
+                      <a href="#contact" class="content-link">
                         <img
                           src="./images/icons/right-arrow.svg"
                           alt="right-arrow"
@@ -442,8 +470,12 @@
                 </div>
                 <div class="card-name"><span>Haress</span></div>
                 <div class="card-link">
-                  <a id="en" href="#">see more</a>
-                  <a id="fr" href="#">Découvrir plus</a>
+                  <a id="en" target="none" href="https://www.haress.ch/"
+                    >see more</a
+                  >
+                  <a id="fr" target="none" href="https://www.haress.ch/"
+                    >Découvrir plus</a
+                  >
                 </div>
               </div>
               <div
@@ -457,8 +489,12 @@
                 </div>
                 <div class="card-name"><span>Nykse</span></div>
                 <div class="card-link">
-                  <a id="en" href="#">see more</a>
-                  <a id="fr" href="#">Découvrir plus</a>
+                  <a id="en" target="none" href="https://www.behance.net/nykse"
+                    >see more</a
+                  >
+                  <a id="fr" target="none" href="https://www.behance.net/nykse"
+                    >Découvrir plus</a
+                  >
                 </div>
               </div>
               <div
@@ -473,8 +509,12 @@
                 </div>
                 <div class="card-name"><span>Bot list</span></div>
                 <div class="card-link">
-                  <a id="en" href="#">see more</a>
-                  <a id="fr" href="#">Découvrir plus</a>
+                  <a id="en" target="none" href="https://discord.gg/KHuWDKhXzq"
+                    >see more</a
+                  >
+                  <a id="fr" target="none" href="https://discord.gg/KHuWDKhXzq"
+                    >Découvrir plus</a
+                  >
                 </div>
               </div>
             </div>
@@ -499,17 +539,29 @@
                 data-aos="fade-right"
                 data-aos-duration="2000"
               >
-                <form action="submit">
-                  <input type="text" placeholder="Name" />
-                  <input type="email" placeholder="Email" />
+                <form action="https://formspree.io/f/mwkgnyel" method="POST">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    required
+                  /><br />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  /><br />
                   <textarea
-                    name=""
-                    id=""
+                    name="message"
                     cols="30"
                     rows="10"
-                    placeholder="Text"
-                  ></textarea>
-                  <button>Send</button>
+                    placeholder="Message"
+                    required
+                  ></textarea
+                  ><br />
+                  <button type="submit">Send</button>
+                  <!-- Hidden field to specify the recipient email address -->
                 </form>
               </div>
               <div
@@ -540,13 +592,15 @@
                   </p>
                 </div>
                 <div class="social-links-container">
-                  <a href="#"
-                    ><img src="./images/light/email.svg" alt="email"
-                  /></a>
-                  <a href="#"
+                  <a onclick="copyText()">
+                    <img src="./images/light/email.svg" alt="email" />
+                  </a>
+                  <a
+                    target="none"
+                    href="https://www.instagram.com/theoblondel.ch/"
                     ><img src="./images/light/instagram.svg" alt="instagram"
                   /></a>
-                  <a href="#"
+                  <a target="none" href="https://www.behance.net/JusteTheo"
                     ><img src="./images/light/behance.svg" alt="behance"
                   /></a>
                 </div>
